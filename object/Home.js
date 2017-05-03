@@ -1,7 +1,7 @@
 module.exports = {
  price : '00',
  size : 1000,
- time : 2,
+ times : 4,
  address : {
   street : 'Jln. Mawa Indah',
   number : '24A',
