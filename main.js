@@ -1,10 +1,13 @@
 var person = require ('./object/Person');
 var home = require ('./object/Home');
+var car = require ('./object/Car');
 //person.setName('herwin');
 //var nama = person.getName();
 var herwin = new person();
+var mycar = new car();
 herwin.setName('Herwin Prasetya');
 var nama = herwin.getName();
 var address =  herwin.address;
 console.log('My Name is : '+nama);
 console.log('My Address is : '+home.address.street);
+console.log('My car is : '+mycar.name+ 'With age '+ mycar.age(2017));
